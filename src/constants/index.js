@@ -6,6 +6,7 @@ import {
   javascript,
   typescript,
   html,
+  skitlearn,
   css,
   reactjs,
   redux,
@@ -16,11 +17,16 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  opensource,
+  nuces,
+  github,
   tesla,
   shopify,
+  vendortrack,
+  flightpulse,
   carrent,
   jobit,
+  darazbot,
   tripguide,
   threejs,
 } from "../assets";
@@ -42,19 +48,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "AI/ML Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Data Scientist",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Software Engineer",
     icon: creator,
   },
 ];
@@ -68,6 +74,7 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
+  
   {
     name: "JavaScript",
     icon: javascript,
@@ -80,6 +87,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
+  
   {
     name: "Redux Toolkit",
     icon: redux,
@@ -116,49 +124,56 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Machine Learning Engineer Aspirant",
+    company_name: "Fast NUCES",
+    icon: nuces,
+    iconBg: "#0092DC",
+    date: "June 2024 - Now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+"Developing and maintaining machine learning models and AI-powered applications using Python and relevant ML frameworks (e.g., TensorFlow, PyTorch, Scikit-learn).",
+
+    "Collaborating with cross-functional teams including data scientists, product managers, and engineers to deliver intelligent, data-driven solutions.",
+
+    "Ensuring models are scalable, efficient, and production-ready through robust testing, validation, and optimization.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "React Developer",
+    company_name: "Open Source Contributions",
+    icon: opensource,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "February 2023 - Ongoing",
     points: [
+
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+
+    
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Data Analysis and Data Science Work",
+    company_name: "Open source Contributions",
+    icon: github,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "November 2023 - Now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    "Developing and maintaining data pipelines, statistical models, and analytical solutions using Python, SQL, and relevant data science libraries.",
+    "Collaborating with cross-functional teams including analysts, product managers, and engineers to translate business problems into data-driven insights.",
+    "Designing and implementing data visualizations and dashboards to effectively communicate findings to technical and non-technical stakeholders.",
+    "Participating in peer reviews of data analyses and models, and providing constructive feedback to improve accuracy and efficiency.",
+
+
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    company_name: "Open Source Contributions",
+    icon: github,
+    iconBg: "#842D93",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -172,42 +187,42 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Shahzaib proved me wrong.",
+    name: "Saba Imtiaaz",
     designation: "CFO",
-    company: "Acme Co",
+    company: "Sarsabz Fertilizers Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a AI/ML Engineer who truly cares about their clients' success like Shahzaib does.",
+    name: "Muneer Shahnawaz",
     designation: "COO",
-    company: "DEF Corp",
+    company: "Dev Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Shahzaib analyzed our user data and uncovered key insights, we were able to improve our strategy and boost performance by 50%.!",
+    name: "Ayesha Baig",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "682 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "VendorTrack",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The Vendor Track is a comprehensive solution for managing vendors, contracts, budgets, expenses, and more. It streamlines operations, improves collaboration between teams, and provides insightful dashboards for decision-making.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MySql",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +230,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: vendortrack,
+    source_code_link: "https://github.com/ShahzaibAli-1/Vendor-Management-System-DB-Project-",
   },
   {
-    name: "Job IT",
+    name: "FlightPulse",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project leverages machine learning to analyze and predict departure delays, utilizing flight details, weather information, and delay records to uncover key patterns and build predictive models. ",
     tags: [
       {
-        name: "react",
+        name: "Sckit-learn",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Matplotlib & Seaborn",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Pandas",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: flightpulse,
+    source_code_link: "https://github.com/ShahzaibAli-1/Advanced-Flight-Departure-Delay-Analysis",
   },
   {
-    name: "Trip Guide",
+    name: "DarazBot",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This smart chatbot helps users find the best mobile phones on Daraz with personalized recommendations. It scrapes real-time data from Daraz, analyzes features, prices, and reviews, and suggests top options based on user preferences.",
     tags: [
       {
-        name: "nextjs",
+        name: "react js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Selenium",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Pandas",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: darazbot,
+    source_code_link: "https://github.com/ShahzaibAli-1/Daraz-Chatbot",
   },
 ];
 
